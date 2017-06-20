@@ -1,17 +1,17 @@
 package odd;
 
-import java.util.Scanner;
+import java.io.*;
 
 public class evenodd
  {
 	public static void main(String args[])
-	{int a;
+	{int b;
 	Scanner in=new Scanner(System.in);
-	System.out.println("Enter the value of a");
-	a=in.nextInt();
-	if(a%2==0){
+	System.out.println("Enter the value of b");
+	b=in.nextInt();
+	if(b%2==0){
 		System.out.println("The given no is even");
-	}if(a%2!=0){
+	}if(b%2!=0){
 		System.out.println("The given no is odd");
 	}
 	}
